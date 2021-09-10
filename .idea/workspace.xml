@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="First List Endpoint">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/dto/ParkingCreateDTO.java" afterDir="false" />
+    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="Adding swagger">
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/exception/ParkingNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/dto/ParkingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/dto/ParkingDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/mapper/ParkingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/mapper/ParkingMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +44,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631293590459</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding swagger">
+      <created>1631296269938</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631296269938</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting java version" />
     <MESSAGE value="First List Endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="First List Endpoint" />
+    <MESSAGE value="Adding swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding swagger" />
   </component>
 </project>
