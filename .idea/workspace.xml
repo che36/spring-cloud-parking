@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="Adding swagger">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/exception/ParkingNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="adding tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/repository/ParkingRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/model/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/model/Parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,6 +31,23 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="isSearchInLibrariesForStructure" value="false" />
   </component>
   <component name="ProjectId" id="1xvDZv8nqkEXmr3K2v48trnIhTk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -161,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631296269938</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding tests">
+      <created>1631298683061</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631298683061</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +203,7 @@
     <MESSAGE value="Setting java version" />
     <MESSAGE value="First List Endpoint" />
     <MESSAGE value="Adding swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding swagger" />
+    <MESSAGE value="adding tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tests" />
   </component>
 </project>
