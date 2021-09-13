@@ -7,11 +7,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+
 import io.restassured.RestAssured;
 import one.digitalinnovation.parking.controller.dto.ParkingCreateDTO;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ParkingControllerTest extends AbstractContainerBase {
+class ParkingControllerTest extends AbstractContainerBase {
+
     @LocalServerPort
     private int randomPort;
 
@@ -23,7 +25,7 @@ public class ParkingControllerTest extends AbstractContainerBase {
     @Test
     void whenFindAllThenCheckResult() {
         RestAssured.given()
-                .auth().basic("user", "Dio@123456")
+                .auth().basic("user", "12345")
                 .when()
                 .get("/parking")
                 .then()
@@ -39,8 +41,8 @@ public class ParkingControllerTest extends AbstractContainerBase {
         createDTO.setState("SP");
 
         RestAssured.given()
-                .auth().basic("user", "Dio@123456")
                 .when()
+                .auth().basic("user", "12345")
                 .contentType(MediaType.APPLICATION_JSON_VALUE)
                 .body(createDTO)
                 .post("/parking")
