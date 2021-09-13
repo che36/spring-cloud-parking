@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="Adding csrf as permitAll">
+    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="adding persistence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/AbstractContainerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/AbstractContainerBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/repository/ParkingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/repository/ParkingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingCheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingCheckOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631554840483</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="adding persistence">
+      <created>1631555945046</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1631555945046</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +250,7 @@
     <MESSAGE value="Adding testcontainers" />
     <MESSAGE value="Adding security" />
     <MESSAGE value="Adding csrf as permitAll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding csrf as permitAll" />
+    <MESSAGE value="adding persistence" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding persistence" />
   </component>
 </project>
