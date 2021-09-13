@@ -45,9 +45,8 @@ public class ParkingController {
         return ResponseEntity.ok(result);
     }
 
-    @PostMapping("/{id}/exit")
+    @PostMapping("/{id}")
     public ResponseEntity<ParkingDTO> checkOut(@PathVariable String id) {
-        //TODO verificar se já não esta fechado e lançar exceção
         Parking parking = parkingService.checkOut(id);
         return ResponseEntity.ok(parkingMapper.toParkingDTO(parking));
     }
