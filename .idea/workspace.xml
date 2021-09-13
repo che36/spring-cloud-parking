@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="adding tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/repository/ParkingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingCheckOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/model/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/model/Parking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/service/ParkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/controller/ParkingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/controller/dto/ParkingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/controller/dto/ParkingDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/controller/mapper/ParkingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/controller/mapper/ParkingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/model/Parking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/model/Parking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalinnovation/parking/service/ParkingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CloudParkingApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
