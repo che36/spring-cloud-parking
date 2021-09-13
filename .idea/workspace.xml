@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="Adding security">
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SecurityConfiguration.java" afterDir="false" />
-    </list>
+    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="Adding csrf as permitAll" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631554715355</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding csrf as permitAll">
+      <created>1631554816634</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1631554816634</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +229,7 @@
     <MESSAGE value="Added checkOut operation and database access" />
     <MESSAGE value="Adding testcontainers" />
     <MESSAGE value="Adding security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding security" />
+    <MESSAGE value="Adding csrf as permitAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding csrf as permitAll" />
   </component>
 </project>
