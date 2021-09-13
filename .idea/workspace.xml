@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="Adding testcontainers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/controller/ParkingControllerTest.java" afterDir="false" />
+    <list default="true" id="d72c7023-f770-48fd-8fa4-e2e5c7fbd25b" name="Default Changelist" comment="Adding security">
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/parking/config/SecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631553944425</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adding security">
+      <created>1631554715355</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1631554715355</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +223,7 @@
     <MESSAGE value="adding tests" />
     <MESSAGE value="Added checkOut operation and database access" />
     <MESSAGE value="Adding testcontainers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding testcontainers" />
+    <MESSAGE value="Adding security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding security" />
   </component>
 </project>
